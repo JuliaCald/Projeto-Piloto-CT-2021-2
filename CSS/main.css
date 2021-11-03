@@ -13,7 +13,7 @@ body {
 main {
   position: relative;
   width: 1440px;
-  height: 3316px;
+  height: 3100px;
   margin: 0 auto;
   background: #ffffff;
 }
@@ -618,7 +618,7 @@ h2 {
   width: 94px;
   height: 19px;
   left: 740.13px;
-  bottom: 100.14px;
+  bottom: 80.14px;
 
   font-family: ABeeZee;
   font-style: normal;
@@ -634,7 +634,7 @@ h2 {
   width: 96px;
   height: 19px;
   left: 740.13px;
-  bottom: 60px;
+  bottom: 40.14px;
 
   font-family: ABeeZee;
   font-style: normal;
@@ -718,4 +718,15 @@ h2 {
   bottom: 91.19px;
 
   border: 1px solid #a5a5a5;
+}
+
+.socios {
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
