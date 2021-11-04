@@ -13,23 +13,23 @@ body {
   padding: 0 15px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-nav .menu{
-    margin-top: -70px;
-    margin-left: 7vw;
+nav .menu {
+  margin-top: -70px;
+  margin-left: 7vw;
 }
 
-nav .sistema{
-    margin-top: -70px;
-    margin-left: 50px;
+nav .sistema {
+  margin-top: -70px;
+  margin-left: 50px;
 }
 
-.logo-cabecalho{
-    margin-top: 13px;
+.logo-cabecalho {
+  margin-top: 13px;
 }
 
 .menu ul li {
@@ -77,11 +77,10 @@ nav .sistema{
   display: block;
 }
 
-  
 .sistema ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 10px; /*????*/
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 10px; /*????*/
 }
 
 .sistema ul li a {
@@ -132,90 +131,283 @@ nav .sistema{
   color: #ffffff;
 }
 
-.quem-somos{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 47px;
-    text-align: center;
-    margin-top: 8%;
-    color: #393939;
+.quem-somos {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  margin-top: 8%;
+  color: #393939;
 }
 
-.barrinha-horizontal{
-    margin-left: auto;
-    margin-right: auto;
-    width: 155px;
-    height: 5px;
-    background: linear-gradient(0deg, #1498d5, #1498d5), #c4c4c4;
-    transform: rotate(-180deg);
+.barrinha-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 155px;
+  height: 5px;
+  background: linear-gradient(0deg, #1498d5, #1498d5), #c4c4c4;
+  transform: rotate(-180deg);
 }
 
-t1{
-    display: flex;
-    justify-content: start;
-    margin-top: 5%;
-    margin-left: 15vw;
+t1 {
+  /* Todos os títulos de dentro do Quem Somos */
+  display: flex;
+  justify-content: start;
+  margin-top: 5%;
+  margin-left: 15vw;
 }
 
-
-.barrinha1{
-    width: 5.3px;
-    height: 43px;
-    background: #1498d5;
-    margin-top: 0.5%;
+/* Inicio de Nossos Pilares */
+.barrinha1 {
+  width: 5.3px;
+  height: 43px;
+  background: #1498d5;
+  margin-top: 1%;
 }
 
 h2 {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 26px;
-    color: #000000;
-    margin-left: 1%;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+  margin-left: 1%;
 }
 
-.pilares{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 5%;
+.pilares {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
 }
-.pilar1{
-    width: 258.83px;
-    height: 129.5px;
-    background: #ffffff;
-    box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
+.pilar1 {
+  width: 258.83px;
+  height: 129.5px;
+  margin: 1%;
+  background: #ffffff;
+  box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
     0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
 }
-.pilar2{
-    width: 258.83px;
-    height: 129.5px;
-    background: #ffffff;
-    box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
+.pilar2 {
+  width: 258.83px;
+  height: 129.5px;
+  margin: 1%;
+  background: #ffffff;
+  box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
     0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
 }
-.pilar3{
-    width: 258.83px;
-    height: 129.5px;
-    background: #ffffff;
-    box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
+.pilar3 {
+  width: 258.83px;
+  height: 129.5px;
+  margin: 1%;
+  background: #ffffff;
+  box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
     0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
 }
 
-h3{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 20px;
-    text-align: justify;
-    z-index: 1;
-    color: #000000;
+h3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: justify;
+  z-index: 1;
+  color: #000000;
 }
 
-.pilares h3{
-    margin-left: 18%;
-    margin-top:15%;
+.pilares h3 {
+  margin-left: 18%;
+  margin-top: 15%;
+}
+/* Fim de Nossos Pilares */
+
+/* Inicio de Nossos Valores */
+.barrinha2 {
+  width: 5.3px;
+  height: 43px;
+  background: #1498d5;
+  margin-top: 1%;
+}
+
+.nossos-valores {
+  /* div abaixo do título */
+  width: 80%;
+  padding-left: 10vw;
+  display: flex;
+
+  justify-content: center;
+}
+
+.texto-valores {
+  font-family: Roboto Slab;
+  font-style: normal;
+
+  font-size: 15px;
+  line-height: 40px;
+  /* or 267% */
+
+  text-align: justify;
+
+  color: #000000;
+}
+.texto-valores {
+  /* ??????????? */
+  text-align: justify;
+  text-align-last: start;
+}
+
+/* Fim de Nossos Valores */
+
+/* Inicío Nossos Números */
+.barrinha3 {
+  width: 5.3px;
+  height: 43px;
+  background: #1498d5;
+  margin-top: 1%;
+}
+
+.icones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.descricao-icones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+/* Fim de Nossos Números */
+
+/* Início Nossos Serviços */
+.nossos-servicos-titulo {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  margin-top: 8%;
+  color: #393939;
+}
+
+.barrinha-horizontal2 {
+  /* barrinha do título */
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  height: 5px;
+  background: linear-gradient(0deg, #1498d5, #1498d5), #c4c4c4;
+  transform: rotate(-180deg);
+}
+
+.caixas-servicos {
+  display: inline-block; /* ????????????? */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.caixa {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  /*width: 320px;*/
+  padding: 0.25%;
+  width: 15vw;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), 0px -2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.titulo-caixa {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  /* or 228% */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.texto-caixas {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 34px;
+  /* or 227% */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.botao {
+  color: #ffffff;
+  border: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 34px;
+
+  background: #1498d5;
+  border-radius: 1.39535px;
+}
+
+.img-servicos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 1440px;
+  min-width: 400px;
+}
+
+.caixa-rodape {
+  background: #323238;
+  display: flex;
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.caixa-rodape ul {
+  list-style: none;
+}
+
+.caixa-rodape ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.caixa-rodape a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo-rodape {
+  margin: 5vw;
 }
