@@ -1,14 +1,151 @@
-body{
-    margin: 0;
+html {
+  overflow-x: hidden;
 }
 
-.cabecalho{
-    height: 60px;
-    background: #f5f5f5;
-    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-    padding: 0 15px;
+body {
+  margin: 0;
 }
 
-.menu ul li{
-    display: inline-block;
+.cabecalho {
+  height: 60px;
+  background: #f5f5f5;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 15px;
+}
+
+.logo-cabecalho {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 3.47vw;
+}
+
+.cabecalho .menu {
+  display: inline-block;
+}
+
+.menu {
+  margin-top: 5px; /* dist menu do topo */
+}
+
+.menu ul {
+  float: left;
+  margin-left: 13.652vw;
+  margin-top: 0px;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 10px; /*????*/
+}
+
+.menu ul li a {
+  color: #222222;
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.menu ul ul {
+  position: relative;
+  left: 150px;
+  display: none;
+  margin-top: 50px;
+  margin-left: -220px;
+  z-index: 1;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul ul li {
+  padding: 10px;
+  width: 130px;
+  display: block;
+  background-color: #f5f5f5;
+  padding-top: 5px;
+}
+
+.menu ul ul li a {
+  color: #615f5f;
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+}
+
+.sistema ul {
+  text-decoration: none;
+  float: right;
+}
+
+.sistema ul li {
+  list-style: none; /* tira a bolinha do Entrar */
+}
+
+.sistema ul li a {
+  text-decoration: none; /* tira o sublinhado do Entrar */
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #222222;
+  margin-top: 0px;
+}
+
+.entrar {
+  position: absolute;
+  width: 150.1px;
+  height: 39.07px;
+  left: 93.23vw;
+  top: 18px;
+}
+
+.btn {
+  border: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.botao-criarconta {
+  position: absolute;
+  width: 150.1px;
+  height: 39.07px;
+  left: 81.23vw;
+  top: 11px;
+
+  cursor: pointer;
+  background: #1498d5;
+  border-radius: 1.39535px;
+}
+
+.banner {
+  width: 100%;
+  background-image: url('../IMG/HomePage/Banner_novo.png');
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+.banner h2 {
+  position: relative;
+  margin: auto;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 63px;
+  text-align: center;
+  color: #ffffff;
 }
