@@ -13,30 +13,29 @@ body {
   padding: 0 15px;
 }
 
-.logo-cabecalho {
-  position: absolute;
-  margin-top: 13px;
-  margin-left: 3.47vw;
+nav{
+    display: flex;
+    justify-content: space-between;
 }
 
-.cabecalho .menu {
-  display: inline-block;
+nav .menu{
+    margin-top: -70px;
+    margin-left: 7vw;
 }
 
-.menu {
-  margin-top: 5px; /* dist menu do topo */
+nav .sistema{
+    margin-top: -70px;
+    margin-left: 50px;
 }
 
-.menu ul {
-  float: left;
-  margin-left: 13.652vw;
-  margin-top: 0px;
+.logo-cabecalho{
+    margin-top: 13px;
 }
 
 .menu ul li {
   display: inline-block;
   line-height: 60px;
-  margin: 0 10px; /*????*/
+  margin: 0 1vw; /*????*/
 }
 
 .menu ul li a {
@@ -50,12 +49,9 @@ body {
 }
 
 .menu ul ul {
-  position: relative;
-  left: 150px;
+  position: absolute;
+  left: 18%;
   display: none;
-  margin-top: 50px;
-  margin-left: -220px;
-  z-index: 1;
 }
 
 .menu ul li:hover ul {
@@ -81,13 +77,11 @@ body {
   display: block;
 }
 
-.sistema ul {
-  text-decoration: none;
-  float: right;
-}
-
+  
 .sistema ul li {
-  list-style: none; /* tira a bolinha do Entrar */
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px; /*????*/
 }
 
 .sistema ul li a {
@@ -101,14 +95,6 @@ body {
   margin-top: 0px;
 }
 
-.entrar {
-  position: absolute;
-  width: 150.1px;
-  height: 39.07px;
-  left: 93.23vw;
-  top: 18px;
-}
-
 .btn {
   border: none;
   font-family: Roboto Slab;
@@ -120,12 +106,8 @@ body {
 }
 
 .botao-criarconta {
-  position: absolute;
   width: 150.1px;
   height: 39.07px;
-  left: 81.23vw;
-  top: 11px;
-
   cursor: pointer;
   background: #1498d5;
   border-radius: 1.39535px;
@@ -148,4 +130,92 @@ body {
   line-height: 63px;
   text-align: center;
   color: #ffffff;
+}
+
+.quem-somos{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin-top: 8%;
+    color: #393939;
+}
+
+.barrinha-horizontal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 155px;
+    height: 5px;
+    background: linear-gradient(0deg, #1498d5, #1498d5), #c4c4c4;
+    transform: rotate(-180deg);
+}
+
+t1{
+    display: flex;
+    justify-content: start;
+    margin-top: 5%;
+    margin-left: 15vw;
+}
+
+
+.barrinha1{
+    width: 5.3px;
+    height: 43px;
+    background: #1498d5;
+    margin-top: 0.5%;
+}
+
+h2 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+    margin-left: 1%;
+}
+
+.pilares{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.pilar1{
+    width: 258.83px;
+    height: 129.5px;
+    background: #ffffff;
+    box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
+    0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
+}
+.pilar2{
+    width: 258.83px;
+    height: 129.5px;
+    background: #ffffff;
+    box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
+    0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
+}
+.pilar3{
+    width: 258.83px;
+    height: 129.5px;
+    background: #ffffff;
+    box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
+    0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
+}
+
+h3{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: justify;
+    z-index: 1;
+    color: #000000;
+}
+
+.pilares h3{
+    margin-left: 18%;
+    margin-top:15%;
 }
