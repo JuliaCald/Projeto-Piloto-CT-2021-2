@@ -35,7 +35,7 @@ nav .sistema {
 .menu ul li {
   display: inline-block;
   line-height: 60px;
-  margin: 0 1vw; /*????*/
+  margin: 0 1vw;
 }
 
 .menu ul li a {
@@ -80,7 +80,7 @@ nav .sistema {
 .sistema ul li {
   display: inline-block;
   line-height: 60px;
-  margin: 0 10px; /*????*/
+  margin: 0 10px;
 }
 
 .sistema ul li a {
@@ -351,11 +351,10 @@ h3 {
 .caixa {
   position: relative;
   align-items: center;
-  /*justify-content: */
+  /*justify-content: space-evenly;*/
   /*width: 320px;*/
   padding: 30px;
   width: 15vw;
-  height: 50vh; /*mudar dps*/
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25), 0px -2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -439,14 +438,21 @@ h3 {
 }
 
 .caixa-rodape {
-  margin-top: 5%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  margin-top: 6%;
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .logo-rodape {
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 5%;
+}
+
+.itens-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 35%;
 }
 
 .caixa-rodape ul {
@@ -477,6 +483,10 @@ h3 {
 .socios ul li {
   margin-left: -3vw;
   display: list-item;
+}
+
+.icones-redes {
+  float: right;
 }
 
 .copyright {
