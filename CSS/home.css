@@ -190,7 +190,14 @@ h2 {
   background: #ffffff;
   box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
     0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
+  transition: 0.75s;
 }
+
+.pilar1:hover {
+  background: rgb(243, 243, 243);
+  transition: 0.75s;
+}
+
 .pilar2 {
   width: 258.83px;
   height: 129.5px;
@@ -198,7 +205,14 @@ h2 {
   background: #ffffff;
   box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
     0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
+  transition: 0.75s;
 }
+
+.pilar2:hover {
+  background: rgb(243, 243, 243);
+  transition: 0.75s;
+}
+
 .pilar3 {
   width: 258.83px;
   height: 129.5px;
@@ -206,6 +220,12 @@ h2 {
   background: #ffffff;
   box-shadow: 0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25),
     0px 3.23757px 3.23757px rgba(0, 0, 0, 0.25);
+  transition: 0.75s;
+}
+
+.pilar3:hover {
+  background: rgb(243, 243, 243);
+  transition: 0.75s;
 }
 
 h3 {
@@ -251,6 +271,7 @@ h3 {
   /* or 267% */
 
   text-align: justify;
+  padding: 0px 95px;
 
   color: #000000;
 }
@@ -270,18 +291,19 @@ h3 {
   margin-top: 1%;
 }
 
-.icones {
+.nossos-numeros {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 2%;
+  margin: 20px 100px;
+  padding: 20px;
 }
 
-.descricao-icones {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.dupla {
+  justify-content: center;
+}
 
+.dupla p {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
