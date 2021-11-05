@@ -121,14 +121,15 @@ html {
 
 
 .redes-sociais{
-    display: grid;
-    grid-template-columns: repeat(8,0fr);
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    width: 25%;
     align-items: center;
 }
 
-
+.facebooktxt,.instagramtxt,.twittertxt,.youtubetxt{
+    margin-right: 1vw;
+}
 .redes-sociais p {
     color: #000;
     font-family: ABeeZee;
