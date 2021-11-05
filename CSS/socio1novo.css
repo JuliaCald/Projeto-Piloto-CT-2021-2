@@ -1,148 +1,165 @@
 html {
-    overflow-x: hidden;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
-  .cabecalho {
-    height: 60px;
-    background: #f5f5f5;
-    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-    padding: 0 15px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  nav .menu {
-    margin-top: -70px;
-    margin-left: 7vw;
-  }
-  
-  nav .sistema {
-    margin-top: -70px;
-    margin-left: 50px;
-  }
-  
-  .logo-cabecalho {
-    margin-top: 13px;
-  }
-  
-  .menu ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 1vw; /*????*/
-  }
-  
-  .menu ul li a {
-    color: #222222;
-    text-decoration: none;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-  }
-  
-  .menu ul ul {
-    position: absolute;
-    left: 18%;
-    display: none;
-  }
-  
-  .menu ul li:hover ul {
-    display: block;
-  }
-  
-  .menu ul ul li {
-    padding: 10px;
-    width: 130px;
-    display: block;
-    background-color: #f5f5f5;
-    padding-top: 5px;
-  }
-  
-  .menu ul ul li a {
-    color: #615f5f;
-    text-decoration: none;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    display: block;
-  }
-  
-  .sistema ul li {
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 10px; /*????*/
-  }
-  
-  .sistema ul li a {
-    text-decoration: none; /* tira o sublinhado do Entrar */
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    color: #222222;
-    margin-top: 0px;
-  }
-  
-  .btn {
-    border: none;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    color: #ffffff;
-  }
-  
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.cabecalho {
+  height: 60px;
+  background: #f5f5f5;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  padding: 0 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .menu {
+  margin-top: -70px;
+  margin-left: 7vw;
+}
+
+nav .sistema {
+  margin-top: -70px;
+  margin-left: 50px;
+}
+
+.logo-cabecalho {
+  margin-top: 13px;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 1vw; /*????*/
+}
+
+.menu ul li a {
+  color: #222222;
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.menu ul ul {
+  position: absolute;
+  left: 18%;
+  display: none;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul ul li {
+  padding: 10px;
+  width: 130px;
+  display: block;
+  background-color: #f5f5f5;
+  padding-top: 5px;
+}
+
+.menu ul ul li a {
+  color: #615f5f;
+  text-decoration: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  display: block;
+}
+
+.sistema ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 10px; /*????*/
+}
+
+.sistema ul li a {
+  text-decoration: none; /* tira o sublinhado do Entrar */
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #222222;
+  margin-top: 0px;
+}
+
+.btn {
+  border: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
 .botao-criarconta {
-    width: 150.1px;
-    height: 39.07px;
-    cursor: pointer;
-    background: #1498d5;
-    border-radius: 1.39535px;
+  width: 150.1px;
+  height: 39.07px;
+  cursor: pointer;
+  background: #1498d5;
+  border-radius: 1.39535px;
 }
 
 /*main*/
 
-.primeira-img{
+.primeiro-bloco {
   display: flex;
   justify-content: center;
+  margin: 130px 135px 70px 135px;
+  align-items: center;
 }
 
-.retangulo-texto1{
-  margin-top: 5%;
-  width: 70%;
-  max-width: 1115px;
-  min-width: 486px;
-  display: flex;
+.retangulo1 {
+  /*margin-top: 5%;*/
+  width: 100%;
+  height: 290px !important;
+  margin: 0 130px 0 70px;
   justify-content: space-between;
   background: #323238;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.img1{
-    width: 70%;
-    max-width: 486px;
-    min-width: 174px;
-    position: relative;
+.texto1 {
+  display: flex;
 }
 
-.segunda-img{
+.texto1 h1 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 79px;
+  color: #ffffff;
+}
+
+.img1 {
+  width: 25%;
+  /*max-width: 486px;
+  min-width: 174px;*/
+  position: absolute;
+  z-index: 1;
+  margin-left: 290px;
+  /*padding-left: 550px;*/
+}
+
+.segundo-bloco {
   display: flex;
   justify-content: center;
 }
 
-.retangulo-texto2{
+.retangulo-texto2 {
   margin-top: 4%;
   margin-bottom: 4%;
   width: 70%;
@@ -154,7 +171,7 @@ html {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.img2{
+.img2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -163,7 +180,7 @@ html {
   min-width: 208px;
 }
 
-.texto1{
+.texto1 {
   font-family: ABeeZee;
   font-style: normal;
   font-weight: normal;
@@ -175,10 +192,10 @@ html {
   align-items: center;
   text-align: justify;
   margin-left: 2.35vw;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
-.texto2{
+.texto2 {
   font-family: ABeeZee;
   font-style: normal;
   font-weight: normal;
@@ -188,31 +205,38 @@ html {
 
   text-align: justify;
   letter-spacing: 0.04em;
-  margin-left:2.35vw ;
-  margin-right:2.35vw ;
-  margin-top:1vw;
-  color: #FFFFFF;
+  margin-left: 2.35vw;
+  margin-right: 2.35vw;
+  margin-top: 1vw;
+  color: #ffffff;
 }
 
-.redes-sociais{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
+.redes-sociais {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 170px;
+  align-items: center;
 }
 
-.facebooktxt,.instagramtxt,.twittertxt,.youtubetxt{
-    margin-right: 1vw;
+.rede {
+  display: flex;
+  align-items: center;
+}
+
+.facebooktxt,
+.instagramtxt,
+.twittertxt,
+.youtubetxt {
+  margin-left: 1vw;
 }
 .redes-sociais p {
-    color: #000;
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
+  color: #000;
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
 }
-
 
 /* Inicio Rodapé */
 .caixa-rodape {
@@ -226,13 +250,13 @@ html {
   color: #ffffff;
 }
 
-.caixa-rodape{
+.caixa-rodape {
   margin-top: 5%;
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.logo-rodape{
+.logo-rodape {
   margin-top: 10%;
   margin-left: 5%;
 }
@@ -241,7 +265,7 @@ html {
   list-style: none;
 }
 
-.caixa-rodape ul li{
+.caixa-rodape ul li {
   margin-top: 10%;
   display: inline-block;
   padding-left: 2vw;
@@ -262,12 +286,12 @@ html {
   display: list-item;
 }
 
-.socios ul li{
+.socios ul li {
   margin-left: -3vw;
   display: list-item;
 }
 
-.copyright{
+.copyright {
   text-align: center;
   font-family: ABeeZee;
   font-style: normal;
@@ -277,6 +301,6 @@ html {
   color: #ffffff;
 }
 
-.teste{
+.teste {
   background: #323238;
 }
