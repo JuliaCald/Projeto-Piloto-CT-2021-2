@@ -116,6 +116,9 @@ nav .sistema {
 
 .banner {
   width: 100%;
+  background-image: url('../IMG/Contato/banner1.png');
+  background-size: cover;
+  padding-top: 60vh;
 }
 
 .meios-contato {
