@@ -114,6 +114,10 @@ nav .sistema {
 
 /* Fim cabeçalho */
 
+.banner {
+  width: 100%;
+}
+
 .meios-contato {
   display: flex;
   justify-content: space-evenly;
@@ -210,6 +214,7 @@ form input {
   margin: auto;
   justify-content: center;
   max-width: 743px;
+  margin-top: 3%;
 }
 
 .barrinha {
