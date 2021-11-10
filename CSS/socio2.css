@@ -128,7 +128,7 @@ nav .sistema {
   height: 80%;
   display: flex;
   justify-content: space-between;
-  background: #323238;
+  background: #56b9e7;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -186,7 +186,7 @@ nav .sistema {
   min-width: 486px;
   display: flex;
   justify-content: space-between;
-  background: #323238;
+  background: #56b9e7;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -332,8 +332,6 @@ nav .sistema {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 35%;
-  /*margin-left: 3vw;
-  margin-right: 3vw;*/
 }
 
 .caixa-rodape ul {
