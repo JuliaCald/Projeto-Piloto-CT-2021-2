@@ -28,8 +28,26 @@ nav .sistema {
   margin-left: 50px;
 }
 
+.botao-menu {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 36px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+}
+
 .logo-cabecalho {
   margin-top: 13px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.5s;
 }
 
 .menu ul li {
@@ -111,6 +129,8 @@ nav .sistema {
   background: #1498d5;
   border-radius: 1.39535px;
 }
+
+/*Corpo do site*/
 
 .banner {
   width: 100%;
@@ -276,7 +296,6 @@ h3 {
   color: #000000;
 }
 .texto-valores {
-  /* ??????????? */
   text-align: justify;
   text-align-last: start;
 }
@@ -336,7 +355,7 @@ h3 {
 }
 
 .caixas-servicos {
-  display: flex; /* ????????????? */
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
@@ -459,6 +478,7 @@ h3 {
 
 .caixa-rodape ul {
   list-style: none;
+  /*overflow: hidden; /*!!!!*/
 }
 
 .caixa-rodape ul li {
@@ -503,4 +523,92 @@ h3 {
 
 .teste {
   background: #323238;
+}
+
+/*----- Parte da responsividade -----*/
+li:hover,
+/*a:hover,*/
+.botao-menu:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.botao-menu:focus ~ ul {
+  height: 260xp;
+}
+
+@media (max-width: 450px) {
+  .banner {
+  }
+
+  .pilares {
+    display: block;
+    margin-left: 25%;
+  }
+
+  .QuemSomos {
+    margin: auto;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  .pilares h3 {
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding-top: 15%;
+  }
+
+  .nossos-numeros {
+    display: block;
+  }
+  .dupla {
+    text-align: center;
+  }
+  .caixas-servicos {
+    display: block;
+  }
+
+  .caixa {
+    margin-left: -25%;
+    width: 51vw;
+    margin-top: 10%;
+  }
+
+  .nossos-valores {
+    /* div abaixo do título */
+    width: 100%;
+    padding-left: 0vw;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  ul {
+    text-align: center;
+    margin: 0;
+    height: 0;
+  }
+  nav {
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  h1 {
+    margin: 10px;
+  }
+
+  li,
+  ul {
+    width: 100%;
+  }
+
+  .botao-menu {
+    display: flex;
+  }
 }
