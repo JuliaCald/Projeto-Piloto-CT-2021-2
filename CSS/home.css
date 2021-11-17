@@ -6,26 +6,28 @@ body {
   margin: 0;
 }
 
-.cabecalho {
+nav {
   height: 60px;
+  display: flex;
+  /*justify-content: space-around;*/
+  align-items: center;
+}
+
+nav .cabecalho {
   background: #f5f5f5;
   box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-  padding: 0 15px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-nav .menu {
-  margin-top: -70px;
-  margin-left: 7vw;
+  margin: 0;
 }
 
 nav .sistema {
-  margin-top: -70px;
-  margin-left: 50px;
+  float: right;
+}
+
+nav .master {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 1vw;
 }
 
 .botao-menu {
@@ -34,16 +36,16 @@ nav .sistema {
   color: black;
   font-size: 36px;
   position: absolute;
-  right: 10px;
+  left: 120px;
   top: 10px;
   display: none;
 }
 
-.logo-cabecalho {
-  margin-top: 13px;
+nav .logo-cabecalho {
+  margin-left: 15px;
 }
 
-ul {
+.menu ul {
   list-style: none;
   padding: 0;
   overflow: hidden;
@@ -526,33 +528,77 @@ h3 {
 }
 
 /*----- Parte da responsividade -----*/
-li:hover,
-/*a:hover,*/
-.botao-menu:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  background-color: rgba(255, 255, 255, 0.2);
-}
 
-.botao-menu:focus ~ ul {
-  height: 260xp;
-}
+@media (max-width: 576px) {
+  /* Novo menu horizontal */
 
-@media (max-width: 450px) {
-  .banner {
+  nav .logo-cabecalho {
+    margin: auto;
   }
 
-  .pilares {
+  nav {
+    height: 350px;
+    justify-content: space-between;
+  }
+
+  nav .cabecalho {
+    display: flex;
+    /*justify-content: space-between;*/
+  }
+
+  nav .master {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+
+  .menu {
+    margin: auto;
+  }
+
+  .menu ul {
+    text-align: center;
+  }
+
+  .menu ul li {
     display: block;
-    margin-left: 25%;
+    margin: auto;
   }
 
+  .sistema {
+    margin: auto;
+  }
+
+  .sistema ul {
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .sistema ul li {
+    display: block;
+  }
+
+  .menu ul ul {
+    position: absolute;
+    left: 70%;
+    display: none;
+  }
+
+  /*Banner*/
+  .banner h2 {
+    font-size: 36px;
+  }
+
+  /*Título quem somos*/
   .QuemSomos {
     margin: auto;
   }
 
-  .logo2 {
-    display: none;
+  /* Nossos pilares */
+  .pilares {
+    display: block;
+    margin-left: 25%;
   }
 
   .pilares h3 {
@@ -562,53 +608,82 @@ li:hover,
     padding-top: 15%;
   }
 
-  .nossos-numeros {
-    display: block;
-  }
-  .dupla {
-    text-align: center;
-  }
-  .caixas-servicos {
-    display: block;
-  }
-
-  .caixa {
-    margin-left: -25%;
-    width: 51vw;
-    margin-top: 10%;
-  }
-
+  /* Nossos valores */
   .nossos-valores {
     /* div abaixo do título */
     width: 100%;
     padding-left: 0vw;
   }
 
-  nav ul {
-    flex-direction: column;
-    align-items: unset;
+  .logo2 {
+    display: none;
   }
 
-  ul {
+  /* Nossos Números */
+  .nossos-numeros {
+    display: block;
+  }
+
+  .dupla {
     text-align: center;
-    margin: 0;
-    height: 0;
-  }
-  nav {
-    padding: 0;
-    align-items: flex-start;
   }
 
-  h1 {
+  /* Início Nossos Serviços */
+  .barrinha-horizontal2 {
+    margin: auto;
+  }
+
+  .nossos-servicos-titulo {
+    text-align: center;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 36px;
+  }
+
+  .caixas-servicos {
+    display: block;
+  }
+
+  .caixa {
+    width: 51vw;
+    margin-top: 10%;
+    margin-left: -5%;
+  }
+
+  /* Footer */
+
+  .logo-rodape {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .teste {
+    margin-top: 10px;
+  }
+
+  .caixa-rodape {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .home,
+  .contato,
+  .socios {
     margin: 10px;
   }
 
-  li,
-  ul {
-    width: 100%;
+  .icones-redes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
   }
 
-  .botao-menu {
-    display: flex;
+  .icones-redes p {
+    display: none;
+  }
+
+  .copyright p {
+    font-size: 12px;
   }
 }
