@@ -529,7 +529,7 @@ h3 {
 
 /*----- Parte da responsividade -----*/
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   /* Novo menu horizontal */
 
   nav .logo-cabecalho {
@@ -601,8 +601,10 @@ h3 {
     margin: auto;
   }
 
-  .pilar1,.pilar2,.pilar3{
-    margin:auto;
+  .pilar1,
+  .pilar2,
+  .pilar3 {
+    margin: auto;
   }
 
   .pilares h3 {
@@ -649,7 +651,7 @@ h3 {
 
   .caixa {
     width: 45vw;
-    margin:10% auto;
+    margin: 10% auto;
   }
 
   /* Footer */
@@ -690,7 +692,7 @@ h3 {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 991px) {
   /*Banner*/
   .banner h2 {
     font-size: 36px;
@@ -707,8 +709,10 @@ h3 {
     margin: auto;
   }
 
-  .pilar1,.pilar2,.pilar3{
-    margin:auto;
+  .pilar1,
+  .pilar2,
+  .pilar3 {
+    margin: auto;
   }
 
   .pilares h3 {
@@ -740,11 +744,11 @@ h3 {
 
   /* Início Nossos Serviços */
   .barrinha-horizontal2 {
-    margin:auto;
+    margin: auto;
   }
 
   .nossos-servicos-titulo {
-    margin:auto;
+    margin: auto;
     font-size: 36px;
   }
 
@@ -755,7 +759,7 @@ h3 {
 
   .caixa {
     width: 50vw;
-    margin:10% auto;
+    margin: 10% auto;
   }
 
   /* Footer */
@@ -794,5 +798,32 @@ h3 {
   .copyright p {
     font-size: 12px;
   }
-}
 
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .socios ul {
+      margin-left: 0vw;
+      display: list-item;
+    }
+
+    /* Início Nossos Serviços */
+    .barrinha-horizontal2 {
+      margin: auto;
+    }
+
+    .nossos-servicos-titulo {
+      text-align: center;
+      margin: auto;
+      font-size: 36px;
+    }
+
+    .caixas-servicos {
+      display: block;
+      padding: 0px 100px;
+    }
+
+    .caixa {
+      width: 45vw;
+      margin: 10% auto;
+    }
+  }
+}
