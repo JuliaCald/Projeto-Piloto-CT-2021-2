@@ -9,7 +9,6 @@ body {
 nav {
   height: 60px;
   display: flex;
-  /*justify-content: space-around;*/
   align-items: center;
 }
 
@@ -798,32 +797,32 @@ h3 {
   .copyright p {
     font-size: 12px;
   }
+}
 
-  @media (min-width: 992px) and (max-width: 1200px) {
-    .socios ul {
-      margin-left: 0vw;
-      display: list-item;
-    }
+@media (min-width: 992px) and (max-width: 1200px) {
+  .socios ul {
+    margin-left: 0vw;
+    display: list-item;
+  }
 
-    /* Início Nossos Serviços */
-    .barrinha-horizontal2 {
-      margin: auto;
-    }
+  /* Início Nossos Serviços */
+  .barrinha-horizontal2 {
+    margin: auto;
+  }
 
-    .nossos-servicos-titulo {
-      text-align: center;
-      margin: auto;
-      font-size: 36px;
-    }
+  .nossos-servicos-titulo {
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+  }
 
-    .caixas-servicos {
-      display: block;
-      padding: 0px 100px;
-    }
+  .caixas-servicos {
+    display: block;
+    padding: 0px 100px;
+  }
 
-    .caixa {
-      width: 45vw;
-      margin: 10% auto;
-    }
+  .caixa {
+    width: 45vw;
+    margin: 10% auto;
   }
 }
