@@ -529,7 +529,7 @@ h3 {
 
 /*----- Parte da responsividade -----*/
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
   /* Novo menu horizontal */
 
   nav .logo-cabecalho {
@@ -598,7 +598,11 @@ h3 {
   /* Nossos pilares */
   .pilares {
     display: block;
-    margin-left: 25%;
+    margin: auto;
+  }
+
+  .pilar1,.pilar2,.pilar3{
+    margin:auto;
   }
 
   .pilares h3 {
@@ -635,8 +639,7 @@ h3 {
 
   .nossos-servicos-titulo {
     text-align: center;
-    margin-left: 10px;
-    padding: 0;
+    margin: auto;
     font-size: 36px;
   }
 
@@ -645,9 +648,8 @@ h3 {
   }
 
   .caixa {
-    width: 51vw;
-    margin-top: 10%;
-    margin-left: -5%;
+    width: 45vw;
+    margin:10% auto;
   }
 
   /* Footer */
@@ -687,3 +689,110 @@ h3 {
     font-size: 12px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  /*Banner*/
+  .banner h2 {
+    font-size: 36px;
+  }
+
+  /*Título quem somos*/
+  .QuemSomos {
+    margin: auto;
+  }
+
+  /* Nossos pilares */
+  .pilares {
+    display: block;
+    margin: auto;
+  }
+
+  .pilar1,.pilar2,.pilar3{
+    margin:auto;
+  }
+
+  .pilares h3 {
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding-top: 15%;
+  }
+
+  /* Nossos valores */
+  .nossos-valores {
+    /* div abaixo do título */
+    width: 100%;
+    padding-left: 0vw;
+  }
+
+  .logo2 {
+    display: none;
+  }
+
+  /* Nossos Números */
+  .nossos-numeros {
+    display: block;
+  }
+
+  .dupla {
+    text-align: center;
+  }
+
+  /* Início Nossos Serviços */
+  .barrinha-horizontal2 {
+    margin:auto;
+  }
+
+  .nossos-servicos-titulo {
+    margin:auto;
+    font-size: 36px;
+  }
+
+  .caixas-servicos {
+    align-items: center;
+    display: block;
+  }
+
+  .caixa {
+    width: 50vw;
+    margin:10% auto;
+  }
+
+  /* Footer */
+
+  .logo-rodape {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .teste {
+    margin-top: 10px;
+  }
+
+  .caixa-rodape {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .home,
+  .contato,
+  .socios {
+    margin: 10px;
+  }
+
+  .icones-redes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .icones-redes p {
+    display: none;
+  }
+
+  .copyright p {
+    font-size: 12px;
+  }
+}
+
