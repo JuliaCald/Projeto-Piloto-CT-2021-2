@@ -7,15 +7,11 @@ body {
 }
 
 nav {
+  background: #f5f5f5;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
   height: 60px;
   display: flex;
   align-items: center;
-}
-
-nav .cabecalho {
-  background: #f5f5f5;
-  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-  margin: 0;
 }
 
 nav .sistema {
@@ -163,6 +159,7 @@ nav .logo-cabecalho {
 
   display: flex;
   align-content: center;
+  text-align: justify;
 
   color: #f5f5f5;
 }
@@ -185,8 +182,7 @@ nav .logo-cabecalho {
 }
 
 .img1 {
-  width: 40%;
-  height: 40%;
+  width: 100%;
 }
 
 /*-----------------*/
@@ -346,14 +342,14 @@ nav .logo-cabecalho {
 .logo-rodape {
   margin-top: 3%;
   margin-left: 5%;
+  width: 20%;
+  height: 20%;
 }
 
 .itens-footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 35%;
-  /*margin-left: 3vw;
-  margin-right: 3vw;*/
 }
 
 .caixa-rodape ul {
@@ -461,21 +457,45 @@ nav .logo-cabecalho {
     display: none;
   }
 
-  /* Form e meios de contato */
-  .meios-contato {
+  /* Primeiro bloco */
+  .retangulo1, .retangulo1 h2, .retangulo1 p {
+    
     display: block;
-    justify-content: space-evenly;
+    text-align: center;
+    
+  }
+  .retangulo1 p {
+    text-align: justify;
+    margin-right: 5%;
   }
 
-  form {
-    margin-top: -170px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px -1.44904px 2.89809px rgba(0, 0, 0, 0.25),
-      0px 2.89809px 2.89809px rgba(0, 0, 0, 0.25);
-    width: 50%;
-    display: inline-block;
-    padding: 2vw;
-    align-items: center;
+  .img1 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .segundo-bloco {
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .img2 {
+    margin: auto;
+    width: 70%;
+  }
+
+  .retangulo2 {
+    width: 70%;
+    margin: auto;
+  }
+
+  .redes-sociais {
+    display: block;
+  }
+
+  .rede{
+    margin-left: 20%;
   }
 
   /* Footer */
@@ -504,7 +524,7 @@ nav .logo-cabecalho {
   .icones-redes {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
   .icones-redes p {
@@ -517,6 +537,47 @@ nav .logo-cabecalho {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Primeiro bloco */
+  .retangulo1, .retangulo1 h2, .retangulo1 p {
+    
+    display: block;
+    text-align: center;
+    
+  }
+  .retangulo1 p {
+    text-align: justify;
+    margin-right: 5%;
+  }
+
+  .img1 {
+    width: 80%;
+    margin: auto;
+  }
+
+  .segundo-bloco {
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .img2 {
+    margin: auto;
+    width: 80%;
+  }
+
+  .retangulo2 {
+    margin: auto;
+    width: 80%;
+  }
+
+  .facebooktxt,.instagramtxt,.twittertxt,.youtubetxt{
+    margin-left:0px;
+  }
+
+  .redes-sociais {
+    margin:50px auto;
+  }
+
   /* Footer */
 
   .logo-rodape {
@@ -543,7 +604,7 @@ nav .logo-cabecalho {
   .icones-redes {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
   .icones-redes p {
@@ -556,4 +617,45 @@ nav .logo-cabecalho {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
+
+  .retangulo1, .retangulo1 h2, .retangulo1 p {
+    
+    display: block;
+    text-align: center;
+    
+  }
+  .retangulo1 p {
+    text-align: justify;
+    margin-right: 5%;
+  }
+
+  .img1 {
+    width: 65%;
+    margin: auto;
+  }
+
+  .segundo-bloco {
+    display: block;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  
+  .img2 {
+    margin: auto;
+    width: 65%;
+  }
+
+  .retangulo2 {
+    margin: auto;
+    width: 65%;
+  }
+
+  .facebooktxt,.instagramtxt,.twittertxt,.youtubetxt{
+    margin-left:0px;
+  }
+
+  .redes-sociais {
+    margin:50px auto;
+  }
+
 }
