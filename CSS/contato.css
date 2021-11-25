@@ -14,7 +14,6 @@ nav {
   align-items: center;
 }
 
-
 nav .sistema {
   float: right;
 }
@@ -65,12 +64,12 @@ nav .logo-cabecalho {
 }
 
 .menu ul ul {
-  position: absolute;
-  left: 18%;
+  position: relative;
   display: none;
 }
 
 .menu ul li:hover ul {
+  position: absolute;
   display: block;
 }
 
@@ -438,7 +437,7 @@ form input {
     justify-content: space-evenly;
   }
 
-  .formulario{
+  .formulario {
     margin: auto;
     text-align: center;
   }
@@ -455,15 +454,15 @@ form input {
   }
 
   /*Conheça nossa Sede*/
-  .conheca-sede{
+  .conheca-sede {
     display: block;
   }
 
-  iframe{
+  iframe {
     width: 100%;
   }
 
-  .foto-sede{
+  .foto-sede {
     text-align: center;
   }
 
@@ -512,7 +511,7 @@ form input {
     justify-content: space-evenly;
   }
 
-  .formulario{
+  .formulario {
     margin: auto;
     text-align: center;
   }
@@ -529,15 +528,15 @@ form input {
   }
 
   /*Conheça nossa Sede*/
-  .conheca-sede{
+  .conheca-sede {
     display: block;
   }
 
-  iframe{
+  iframe {
     width: 100%;
   }
 
-  .foto-sede{
+  .foto-sede {
     text-align: center;
   }
   /* Footer */
@@ -580,8 +579,7 @@ form input {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* Mapa */
-  iframe{
+  iframe {
     width: 100%;
   }
-
 }

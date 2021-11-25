@@ -64,12 +64,12 @@ nav .logo-cabecalho {
 }
 
 .menu ul ul {
-  position: absolute;
-  left: 18%;
+  position: relative;
   display: none;
 }
 
 .menu ul li:hover ul {
+  position: absolute;
   display: block;
 }
 
